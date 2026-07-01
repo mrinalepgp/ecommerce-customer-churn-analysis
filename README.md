@@ -62,5 +62,7 @@ cd ecommerce-customer-churn-analysis
 # 3. Install all required core pipeline application dependencies
 pip install streamlit pandas numpy scikit-learn joblib
 
+Once the launcher completes its execution trace, a local network web server will spin up and automatically open your dashboard application inside a fresh browser tab at http://localhost:8501. Enjoy exploring the analytical models!
+
 # 4. Launch the local Streamlit web application environment
 streamlit run app.py
